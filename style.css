@@ -103,6 +103,10 @@ hr {
 }
 
 @media (max-width:800px) {
+  h1 {
+  	font-size: 2rem;
+  }
+
   .text {
   	display: grid;
   	grid-template-columns: 1fr;
