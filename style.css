@@ -107,6 +107,11 @@ hr {
   	font-size: 2rem;
   }
 
+  .page {
+  	padding-right: 2.5rem;
+	padding-left: 2.5rem;
+  }
+
   .text {
   	display: grid;
   	grid-template-columns: 1fr;
