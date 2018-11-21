@@ -29,6 +29,33 @@ p {
 	text-align: justify;
 }
 
+a {
+    text-decoration: none;
+    font-weight: bold;
+    color: inherit;
+}
+
+a:hover {
+    color: #834210;
+    transition: 0.3s;
+}
+
+ul {
+    padding-left: 0;
+    padding-top: .5rem;
+    padding-bottom: 2rem;
+    margin: 0;
+    list-style: none;
+}
+
+hr {
+    /*background-color: #ff7b16;*/
+    background-color: #481A03;
+    border: none;
+    margin: 1.5em 0px 1.5em 0px;
+    height: 4px;
+}
+
 .page {
 	padding-top: 2rem;
 	padding-right: 4rem;
@@ -42,11 +69,6 @@ p {
 	padding-top: 1.5rem;
 }
 
-.photo {
-	margin: 1rem 0 1.5rem;
- 	max-width: 27rem;
-}
-
 .text {
 	text-align: right;
 	display: grid;
@@ -57,38 +79,6 @@ p {
 .email p {
 	margin-top: 0;
 	text-align: right;
-}
-
-img {
-	width: 100%;
-	height: auto;
-}
-
-a {
-	text-decoration: none;
-	font-weight: bold;
-	color: inherit;
-}
-
-a:hover {
-	color: #834210;
-	transition: 0.3s;
-}
-
-ul {
-	padding-left: 0;
-	padding-top: .5rem;
-	padding-bottom: 2rem;
-	margin: 0;
-	list-style: none;
-}
-
-hr {
-	/*background-color: #ff7b16;*/
-	background-color: #481A03;
-	border: none;
-    margin: 1.5em 0px 1.5em 0px;
-    height: 4px;
 }
 
 .dot {
